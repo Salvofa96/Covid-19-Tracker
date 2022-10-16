@@ -1,0 +1,15 @@
+<body id="chart">
+
+  <div id="container" class="container">
+      <div class="col-sm-8 bg-light p-3 border">
+        <canvas baseChart
+                [datasets]="barChartData"
+                [labels]="barChartLabels"
+                [options]="barChartOptions"
+                [legend]="barChartLegend"
+                [chartType]="barChartType">
+        </canvas>
+      </div>
+    </div>
+
+</body>

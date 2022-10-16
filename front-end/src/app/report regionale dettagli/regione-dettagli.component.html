@@ -1,0 +1,22 @@
+<body id="report-regionale-dettagli">
+    <div class="table-responsive-sm" *ngIf="reg">
+        <h2>{{reg.denominazione_regione | uppercase}}</h2>
+
+        <table class="table table-bordered table-primary w-50">
+            <tbody><tr><th scope="row">Data</th><td>{{reg.data|date:'dd/MM/yyyy'}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Terapia Intensiva</th><td>{{reg.terapia_intensiva}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Totale Ospedalizzati</th><td>{{reg.totale_ospedalizzati}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Nuovi positivi</th><td>{{reg.variazione_totale_positivi}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Tamponi</th><td>{{reg.tamponi}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Tampone Molecolare</th><td>{{reg.tamponi_test_molecolare}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Tampone Rapido</th><td>{{reg.tamponi_test_antigenico_rapido}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Totale Casi</th><td>{{reg.totale_casi}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Dimessi Guariti</th><td>{{reg.dimessi_guariti}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Totale Deceduti</th><td>{{reg.deceduti}}</td></tr></tbody>
+        </table>
+    
+    <button type="button" (click)="goBack()">Indietro</button>
+  </div>
+</body>
+
+

@@ -1,0 +1,10 @@
+<body id="report-regionale">
+    <h1>Report Regionali</h1>
+    <ul class="regioni">
+        <li *ngFor="let reg of regioni">
+        <button type="button" class="btn btn-light" routerLink ="/dettagli/{{reg.id}}">
+                {{reg.denominazione_regione}}
+            </button>
+        </li>
+    </ul>
+</body>

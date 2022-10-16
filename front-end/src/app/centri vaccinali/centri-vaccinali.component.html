@@ -1,0 +1,10 @@
+<body id="centri">
+    <h1>Centri Vaccinali per Regione</h1>
+    <ul class="centri">
+        <li *ngFor="let r of regioni">
+            <button type="button" class="btn btn-light" routerLink ="/centri/{{r}}">
+                    {{r}}
+            </button>
+        </li>
+    </ul>
+</body>

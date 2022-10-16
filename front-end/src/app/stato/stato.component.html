@@ -1,0 +1,25 @@
+<body id="report-nazionale">
+    <h1>Ultimo Report Nazionale</h1>
+    <div class="table-responsive-sm">
+    
+        <table class="table table-bordered table-primary w-50">
+            <tbody><tr><th scope="row">Data</th><td>{{stato.data|date:'dd/MM/yyyy'}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Stato</th><td>{{stato.stato}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Ricoverati con sintomi</th><td>{{stato.ricoverati_con_sintomi}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Terapia Intensiva</th><td>{{stato.terapia_intensiva}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Totale Ospedalizzati</th><td>{{stato.totale_ospedalizzati}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Isolamento Domiciliare</th><td>{{stato.isolamento_domiciliare}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Totale Positivi</th><td>{{stato.totale_positivi}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Nuovi Positivi</th><td>{{stato.nuovi_positivi}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Tot. Dimessi Guariti</th><td>{{stato.dimessi_guariti}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Totale Deceduti</th><td>{{stato.deceduti}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Totale Tamponi</th><td>{{stato.tamponi}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Ingressi Tereapia Intensiva</th><td>{{stato.ingressi_terapia_intensiva}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Tot. Dimessi Guariti</th><td>{{stato.dimessi_guariti}}</td></tr></tbody>
+            <tbody><tr><th scope="row">Totale Deceduti</th><td>{{stato.deceduti}}</td></tr></tbody>
+        </table>
+    
+  </div>
+  <button type="button" (click)="goBack()">Indietro</button>
+</body>
+

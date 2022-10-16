@@ -1,0 +1,12 @@
+<body id="centri-vaccinali">
+    <div class="table-responsive-sm" id="province">
+        <ul>
+            <li *ngFor="let item of provincia2">
+                <table class="table table-bordered table-primary w-50">
+                    <tbody><tr><th scope="row">Comune</th><td>{{item.comune}}</td></tr></tbody>
+                    <tbody><tr><th scope="row">Presidio Ospedaliero</th><td>{{item.presidio_ospedaliero}}</td></tr></tbody>
+                </table>
+            </li>  
+        </ul>
+    </div>
+</body> 

@@ -1,0 +1,10 @@
+<body id="centri-dettagli">
+    <h1>Centri Vaccinali per Regione</h1>
+    <ul class="centri">
+        <li *ngFor="let provincia of province">
+        <button type="button" class="btn btn-light"  routerLink ="/provincia/{{provincia}}">
+                {{provincia}}
+        </button>
+        </li>
+    </ul>
+</body>

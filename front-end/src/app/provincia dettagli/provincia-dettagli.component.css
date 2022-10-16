@@ -1,0 +1,13 @@
+#centri-vaccinali {  
+    height: 1080px;  
+    color: #fff;background-image: url("./imm2.png");  
+    background-size: 100%;  
+    background-size:cover;
+    width:100%;
+}  
+
+#province{
+    top : 30% !important;
+    table-layout: auto;
+    width: 100%; 
+}

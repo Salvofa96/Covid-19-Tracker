@@ -1,0 +1,17 @@
+#container {
+    position:relative; 
+    top:60px;
+    left:20px; 
+    padding:10px; 
+    margin:5px; 
+    width: 80%; 
+    font-weight:bold;
+   }
+
+   #chart {  
+    height: 750px;  
+    color: #fff;background-image: url("./corona.jpg");  
+    background-size: 100%;  
+    background-size:cover;
+    width:100%;
+}  
